@@ -9,6 +9,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Play Game"
+        android:gravity="center"
+        android:background="#67DE30"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@color/teal_200"
+        android:id="@+id/playbtn"
+        />
 
 </FrameLayout>
